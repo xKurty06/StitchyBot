@@ -56,10 +56,10 @@ Remove `/*` and `*/` to enable.
  "./commands/" is the path of folder where all the commands code will be present.
  ```
 
-`commands` directory can be changed into any name you want.
+`./commands` directory can be changed into any name you want.
 - Make sure to update inside the loader.
-```js
-`loader.load(bot.cmd,'./PATH/')`
+```javascript
+loader.load(bot.cmd,'./PATH/')
 ```
 
 
